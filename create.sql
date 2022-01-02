@@ -1,6 +1,3 @@
-*.sql linguist-detectable=true;
-*.sql linguist-language=sql;
-
 DROP DATABASE IF EXISTS noruc_1;
 CREATE DATABASE noruc_1;
 USE noruc_1;
