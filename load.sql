@@ -1,5 +1,5 @@
 SET GLOBAL local_infile = true;
-SET SQL_SAFE_UPDATES = 0;
+SET SQL_SAFE_UPDATES = 0; 
 #SHOW GLOBAL VARIABLES LIKE 'local_infile';
 
 LOAD DATA LOCAL INFILE '~noruc/users.csv'
