@@ -1,3 +1,5 @@
+DROP DATABASE IF EXISTS noruc_1;
+CREATE DATABASE noruc_1;
 USE noruc_1;
 
 DROP TABLE IF EXISTS `users`;
@@ -61,8 +63,3 @@ CREATE TABLE `lending_rec`(
     CONSTRAINT `lending_fk_users` FOREIGN KEY (`ur_id`) REFERENCES `users` (`ur_id`),
     CONSTRAINT `lending_fk_devices` FOREIGN KEY (`device_id`) REFERENCES `devices` (`device_id`)
 );
-
-
-
-    
-    
